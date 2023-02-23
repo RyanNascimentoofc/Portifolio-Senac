@@ -1,0 +1,41 @@
+/* css reset */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-left: 7rem;
+    padding-top: 12.5rem;
+    background-size: cover;
+    background-image: url(./assets/images/Developer.jpg);
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    font-size: 'Poppins';
+}
+
+span{
+    font-size: 40px;
+    color: #fff;
+}
+
+a{
+    color: #fff;
+    font-size: 1.9rem;
+    text-decoration: none;
+    background: linear-gradient(90deg, #6a3093, #a044ff);
+    padding: 1rem 2rem;
+    border-radius: 7px;
+}
